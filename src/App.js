@@ -1,8 +1,9 @@
+import Home from "./pages/Home"
+import "./style.scss"
+
 function App() {
   return (
-    <div>
-      Hello world!
-    </div>
+    <Home/>
   );
 }
 
