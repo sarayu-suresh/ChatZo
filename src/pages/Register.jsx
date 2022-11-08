@@ -61,7 +61,7 @@ const Register = () => {
                     <input type="text" placeholder='Name'></input>
                     <input type="text" placeholder='Number'></input>
                     <input type="email" placeholder='E-mail'></input>
-                    <input type="password" placeholder='Password'></input>
+                    <input type="password" placeholder='Password should contain 6 characters'></input>
                     <input required style={{ display:"none" }} type="file" id="file"></input>
                     <label htmlFor='file'>
                         <img src={Add}></img>
